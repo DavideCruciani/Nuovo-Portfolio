@@ -1,10 +1,13 @@
-import { useState } from 'react'
+import Hero from "./components/Hero"
+import Navbar from "./components/Navbar"
+/* IMMAGINI */
+import Typewriter from "./assets/typewriter.png"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+      <Navbar />
+      <Hero immagine={Typewriter} />
     </>
   )
 }

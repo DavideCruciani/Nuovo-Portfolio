@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Mom'sTypewriter";
+  src: url('./fonts/Momst.ttf') format('truetype');
+}
+
+.font-typewriter {
+  font-family: "Mom'sTypewriter", sans-serif;
+}
+
+html {
+  background-image: url(./assets/paper2.jpg);
+  background-size: cover;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
