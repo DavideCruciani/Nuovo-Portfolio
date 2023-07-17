@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Menu from '../assets/menu/bars-solid.svg'
 import Close from '../assets/menu/xmark-solid.svg'
 
@@ -7,13 +7,15 @@ const Navbar = () => {
 
   function ShowNavbar() {
     setShowNav(!showNav)
-    console.log(showNav);
+  }
+
+  useEffect(() => {
     if (!showNav) {
       document.body.classList.toggle('overflow-hidden');
     } else {
       document.body.classList.toggle('overflow-hidden');
     }
-  }
+  }, [showNav])
 
   return (
     <>
@@ -31,7 +33,7 @@ const Navbar = () => {
         <img src={Menu} alt="" className='w-[30px] h-[30px] block lg:hidden cursor-pointer' onClick={() => {ShowNavbar()}}/>
       </div>
     </nav>
-    <div className={showNav === true ? 'w-full h-full fixed top-0 left-0 bg-[url(/src/assets/paper2.jpg)] block lg:hidden z-[100] overflow-hidden' : 'w-[100vw] h-[100vh] z-[100] hidden'}>
+    <div className={showNav ? 'w-full h-full fixed top-0 left-0 right-0 bg-[url(/src/assets/paper2.jpg)] block lg:hidden z-[100] -translate-x-0 duration-300' : 'w-full h-full fixed top-0 left-0 right-0 bg-[url(/src/assets/paper2.jpg)] z-[100] lg:hidden translate-x-full duration-200'}>
       <div className='container mx-auto p-4 h-full'>
         <div className='flex justify-between'>
           <div className='font-typewriter'>
