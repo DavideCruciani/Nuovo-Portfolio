@@ -12,40 +12,40 @@ const Skills = () => {
           </div>
           <div className='grid grid-cols-2 grid-rows-4 sm:grid-cols-4 sm:grid-rows-2 gap-20'>
             <div className='rotate-3'>
-              <img src={ReactJS} alt="" className='w-[150px] hover:scale-[1.05]'/>
+              <img src={ReactJS} alt="" className='hover:scale-[1.05]'/>
               <p className='text-center font-typewriter text-xl mt-2'>React</p>
             </div>
             <div className='-rotate-3'>
-              <img src={JavaScript} alt="" className='w-[150px] hover:scale-[1.05]'/>
+              <img src={JavaScript} alt="" className='hover:scale-[1.05]'/>
               <p className='text-center font-typewriter text-xl mt-2'>JavaScript</p>
             </div>
             <div className='rotate-3'>
-              <img src={TypeScript} alt="" className='w-[150px] hover:scale-[1.05] '/>
+              <img src={TypeScript} alt="" className='hover:scale-[1.05] '/>
               <p className='text-center font-typewriter text-xl mt-2'>TypeScript</p>
             </div>
             <div className='-rotate-3'>
-              <img src={Github} alt="" className='w-[150px] hover:scale-[1.05]'/>
+              <img src={Github} alt="" className='hover:scale-[1.05]'/>
               <p className='text-center font-typewriter text-xl mt-2'>Github</p>
             </div>
             <div className='rotate-3'>
-              <img src={Tailwind} alt="" className='w-[150px] hover:scale-[1.05]'/>
+              <img src={Tailwind} alt="" className='hover:scale-[1.05]'/>
               <p className='text-center font-typewriter text-xl mt-2'>Tailwind</p>
             </div>
             <div className='-rotate-3'>
-              <img src={Bootstrap} alt="" className='w-[150px] hover:scale-[1.05]'/>
+              <img src={Bootstrap} alt="" className='hover:scale-[1.05]'/>
               <p className='text-center font-typewriter text-xl mt-2'>Bootstrap</p>
             </div>
             <div className='rotate-3'>
-              <img src={HTML} alt="" className='w-[150px] hover:scale-[1.05] '/>
+              <img src={HTML} alt="" className='hover:scale-[1.05] '/>
               <p className='text-center font-typewriter text-xl mt-2'>HTML</p>
             </div>
             <div className='-rotate-3'>
-              <img src={CSS} alt="" className='w-[150px] hover:scale-[1.05] '/>
+              <img src={CSS} alt="" className='hover:scale-[1.05] '/>
               <p className='text-center font-typewriter text-xl mt-2'>CSS</p>
             </div>
           </div>
         </div>
-        <p className='font-typewriter text-4xl text-center mt-20'>E molto altro...</p>
+        <p className='font-typewriter text-2xl md:text-3xl 2xl:text-4xl text-center mt-20'>E molto altro...</p>
     </section>
   )
 }
