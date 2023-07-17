@@ -4,13 +4,13 @@ import { Bootstrap, CSS, Github, HTML, JavaScript, ReactJS, Tailwind, TypeScript
 
 const Skills = () => {
   return (
-    <section className='container p-4 mx-auto sm:pb-24 md:pb-32 2xl:pb-48' id='skills'>
-        <h1 className='font-typewriter text-6xl xl:text-7xl 2xl:text-8xl mb-20'>Le mie skills:</h1>
+    <section className='container p-4 mx-auto sm:pb-24 md:pb-32 2xl:pb-48 text-center md:text-start' id='skills'>
+        <h1 className='font-typewriter text-5xl xl:text-7xl 2xl:text-8xl mb-20'>Le mie skills:</h1>
         <div className='flex flex-col-reverse col items-center xl:flex-row justify-between'>
           <div>
-            <img src={Book} alt="" className='w-[500px] mb-6'/>
+            <img src={Book} alt="" className='w-[500px] mt-20 xl:mt-0'/>
           </div>
-          <div className='grid grid-cols-2 grid-rows-4 xl:grid-cols-4 xl:grid-rows-2 gap-20'>
+          <div className='grid grid-cols-2 grid-rows-4 sm:grid-cols-4 sm:grid-rows-2 gap-20'>
             <div className='rotate-3'>
               <img src={ReactJS} alt="" className='w-[150px] hover:scale-[1.05]'/>
               <p className='text-center font-typewriter text-xl mt-2'>React</p>
@@ -45,7 +45,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <p className='font-typewriter text-4xl text-center mt-20 under'>E molto altro...</p>
+        <p className='font-typewriter text-4xl text-center mt-20'>E molto altro...</p>
     </section>
   )
 }
