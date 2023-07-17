@@ -1,7 +1,8 @@
 import React from 'react'
 import Typed from 'react-typed';
+import Typewriter from "../assets/typewriter.png"
 
-const Hero = ({ immagine }) => {
+const Hero = () => {
   return (
     <section className='container p-4 mx-auto sm:py-24 md:py-32 2xl:py-48'>
       <div className='flex flex-col md:flex-row'>
@@ -13,7 +14,7 @@ const Hero = ({ immagine }) => {
           <button className='font-typewriter p-4 border-black border-[3px] mt-12 hover:bg-black hover:text-white'>Mettiamoci in contatto</button>
         </div>
         <div className='md:w-2/4'>
-          <img className='w-full xl:-mt-20' src={immagine} alt="" />
+          <img className='w-full xl:-mt-20' src={Typewriter} alt="" />
         </div>
       </div>
     </section>
