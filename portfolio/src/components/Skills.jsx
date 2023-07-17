@@ -4,7 +4,7 @@ import { Bootstrap, CSS, Github, HTML, JavaScript, ReactJS, Tailwind, TypeScript
 
 const Skills = () => {
   return (
-    <section className='container p-4 mx-auto sm:pb-24 md:pb-32 2xl:pb-48'>
+    <section className='container p-4 mx-auto sm:pb-24 md:pb-32 2xl:pb-48' id='skills'>
         <h1 className='font-typewriter text-8xl mb-20'>Le mie skills:</h1>
         <div className='flex justify-between'>
           <div>
@@ -15,23 +15,23 @@ const Skills = () => {
               <img src={ReactJS} alt="" className='w-[150px] hover:scale-[1.05]'/>
               <p className='text-center font-typewriter text-xl mt-2'>React</p>
             </div>
-            <div className='rotate-3'>
+            <div className='-rotate-3'>
               <img src={JavaScript} alt="" className='w-[150px] hover:scale-[1.05]'/>
               <p className='text-center font-typewriter text-xl mt-2'>JavaScript</p>
             </div>
-            <div className='-rotate-3'>
+            <div className='rotate-3'>
               <img src={TypeScript} alt="" className='w-[150px] hover:scale-[1.05] '/>
               <p className='text-center font-typewriter text-xl mt-2'>TypeScript</p>
             </div>
-            <div className='rotate-3'>
+            <div className='-rotate-3'>
               <img src={Github} alt="" className='w-[150px] hover:scale-[1.05]'/>
               <p className='text-center font-typewriter text-xl mt-2'>Github</p>
             </div>
-            <div className='-rotate-3'>
+            <div className='rotate-3'>
               <img src={Tailwind} alt="" className='w-[150px] hover:scale-[1.05]'/>
               <p className='text-center font-typewriter text-xl mt-2'>Tailwind</p>
             </div>
-            <div className='rotate-3'>
+            <div className='-rotate-3'>
               <img src={Bootstrap} alt="" className='w-[150px] hover:scale-[1.05]'/>
               <p className='text-center font-typewriter text-xl mt-2'>Bootstrap</p>
             </div>
@@ -45,6 +45,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
+        <p className='font-typewriter text-4xl text-center mt-20 under'>E molto altro...</p>
     </section>
   )
 }

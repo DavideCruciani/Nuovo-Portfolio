@@ -10,6 +10,7 @@
 html {
   background-image: url(./assets/paper2.jpg);
   background-size: cover;
+  scroll-behavior: smooth;
 }
 
 @tailwind base;
