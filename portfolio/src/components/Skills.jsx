@@ -5,12 +5,12 @@ import { Bootstrap, CSS, Github, HTML, JavaScript, ReactJS, Tailwind, TypeScript
 const Skills = () => {
   return (
     <section className='container p-4 mx-auto sm:pb-24 md:pb-32 2xl:pb-48' id='skills'>
-        <h1 className='font-typewriter text-8xl mb-20'>Le mie skills:</h1>
-        <div className='flex justify-between'>
+        <h1 className='font-typewriter text-6xl xl:text-7xl 2xl:text-8xl mb-20'>Le mie skills:</h1>
+        <div className='flex flex-col-reverse col items-center xl:flex-row justify-between'>
           <div>
-            <img src={Book} alt="" className='w-[500px]'/>
+            <img src={Book} alt="" className='w-[500px] mb-6'/>
           </div>
-          <div className='grid grid-cols-4 grid-rows-2 gap-20'>
+          <div className='grid grid-cols-2 grid-rows-4 xl:grid-cols-4 xl:grid-rows-2 gap-20'>
             <div className='rotate-3'>
               <img src={ReactJS} alt="" className='w-[150px] hover:scale-[1.05]'/>
               <p className='text-center font-typewriter text-xl mt-2'>React</p>
