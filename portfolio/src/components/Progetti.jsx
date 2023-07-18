@@ -4,14 +4,14 @@ import { ReactJS, Tailwind, TypeScript } from '../assets/skillsIcon'
 
 const Progetti = () => {
   return (
-    <section className='container p-4 mx-auto sm:pb-24 md:pb-32 2xl:pb-48 text-center md:text-start' id='progetti'>
+    <section className='container p-4 mx-auto pb-16 xs:pb-24 md:pb-32 2xl:pb-48 text-center md:text-start' id='progetti'>
       <h1 className='font-typewriter text-5xl xl:text-7xl 2xl:text-8xl mb-20'>I miei progetti:</h1>
 
       <div className='mb-32 flex-col'>
         <img src={Project3} alt="" className='border-4 border-black'/>
-        <div className='p-4'>
+        <div className='py-4'>
           <h2 className='font-typewriter text-4xl'>HOOBANK</h2>
-          <p className='font-typewriter my-3'>Questo progetto è un'applicazione web sviluppata utilizzando React e Tailwind con l'obiettivo di creare una pagina di ingresso accattivante e moderna una banca. L'applicazione si basa su un design su figma e mira a fornire un'esperienza visiva coinvolgente e informativa per gli utenti interessati ai servizi offerti da HooBank.</p>
+          <p className='font-typewriter my-3'>Questo progetto è un'applicazione web sviluppata utilizzando React e Tailwind con l'obiettivo di creare una pagina di ingresso accattivante e moderna una banca. L'applicazione si basa su un design figma e mira a fornire un'esperienza visiva coinvolgente e informativa per gli utenti interessati ai servizi offerti da HooBank.</p>
           <div className='flex gap-6 mb-3 justify-center md:justify-start'>
             <img src={ReactJS} alt="TypeScript" className='w-[50px]'/>
             <img src={Tailwind} alt="Tailwind" className='w-[50px]'/>
@@ -29,7 +29,7 @@ const Progetti = () => {
 
       <div className='mb-32 flex-col'>
         <img src={Project1} alt="" className='border-4 border-black'/>
-        <div className='p-4'>
+        <div className='py-4'>
           <h2 className='font-typewriter text-4xl'>IP ADDRESS TRACKER (API)</h2>
           <p className='font-typewriter my-3'>Questo progetto è un'applicazione web che consente agli utenti di inserire un indirizzo IP e ottenere la sua localizzazione sulla mappa. L'applicazione utilizza la libreria Leaflet per visualizzare la mappa interattiva e l'API di Ipify per recuperare le informazioni sulla localizzazione corrispondenti all'indirizzo IP inserito.</p>
           <div className='flex gap-6 mb-3 justify-center md:justify-start'>
@@ -49,7 +49,7 @@ const Progetti = () => {
 
       <div className='mb-32 flex-col'>
         <img src={Project2} alt="" className='border-4 border-black'/>
-        <div className='p-4'>
+        <div className='py-4'>
           <h2 className='font-typewriter text-4xl'>BMW CLONE</h2>
           <p className='font-typewriter my-3'>Questo progetto è un'applicazione web sviluppata utilizzando React e Tailwind con l'obiettivo di ricreare fedelmente la pagina di ingresso del sito web ufficiale di BMW. La replica è completamente responsiva per dispositivi mobile. </p>
           <div className='flex gap-6 mb-3 justify-center md:justify-start'>
@@ -67,11 +67,11 @@ const Progetti = () => {
         </div>
       </div>
 
-      <div className='mb-32 flex-col'>
+      <div className='flex-col'>
         <img src={Project4} alt="" className='border-4 border-black'/>
-        <div className='p-4'>
+        <div className='py-4'>
           <h2 className='font-typewriter text-4xl'>SPACE TOURISM</h2>
-          <p className='font-typewriter my-3'>Questo progetto è una challenge del sito Frontend Mentor, consiste nel sviluppare un sito web di turismo spaziale multi-pagina e farlo apparire il più fedele possibile al design messo a disposizione dal sito.</p>
+          <p className='font-typewriter my-3'>Questo progetto è una challenge del sito Frontend Mentor, consiste nel sviluppare un sito web di turismo spaziale multi-pagina e farlo apparire il più fedele possibile al design messo a disposizione dal sito utilizzando tecnologie a tua scelta, per questo progetto ho utilizzato React, Tailwind e React Router per la navigazione multi-pagina.</p>
           <div className='flex gap-6 mb-3 justify-center md:justify-start'>
             <img src={ReactJS} alt="TypeScript" className='w-[50px]'/>
             <img src={Tailwind} alt="Tailwind" className='w-[50px]'/>

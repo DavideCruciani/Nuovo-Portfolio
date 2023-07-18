@@ -1,3 +1,5 @@
+import Contacts from "./components/Contacts"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Progetti from "./components/Progetti"
@@ -10,6 +12,8 @@ function App() {
       <Hero />
       <Skills />
       <Progetti />
+      <Contacts />
+      <Footer />
     </>
   )
 }

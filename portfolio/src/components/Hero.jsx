@@ -11,7 +11,9 @@ const Hero = () => {
             <Typed strings={['Frontend\nDeveloper', 'Quick\nLearner', 'Creative\nMind']} typeSpeed={90} backSpeed={90} backDelay={1000} showCursor={false} loop/>
           </h1>
           <p className='font-typewriter sm:text-lg xl:text-xl mt-2'>Creativita' e codice si fondono per creare esperienze <br className='hidden 2xl:block' /> digitali coinvolgenti e innovative.</p>
-          <button className='font-typewriter p-4 border-black border-[3px] mt-6 xl:mt-12 hover:bg-black hover:text-white'>Mettiamoci in contatto</button>
+          <a href="#contattami">
+            <button className='font-typewriter p-4 border-black border-[3px] mt-6 xl:mt-12 hover:bg-black hover:text-white'>Mettiamoci in contatto</button>
+          </a>
         </div>
         <div className='md:w-2/4 mt-6 xl:mt-0'>
           <img className='w-full xl:-mt-20' src={Typewriter} alt="" />
