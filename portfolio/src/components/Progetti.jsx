@@ -1,10 +1,12 @@
 import React from 'react'
 import { Project1, Project2, Project3, Project4 } from '../assets/projects/projectsScreen'
 import { ReactJS, Tailwind, TypeScript } from '../assets/skillsIcon'
+import { useInView } from 'react-intersection-observer';
 
 const Progetti = () => {
+  const { ref: myRef, inView: myElementIsVisible } = useInView();
   return (
-    <section className='container p-4 mx-auto pb-16 xs:pb-24 md:pb-32 2xl:pb-48 text-center md:text-start' id='progetti'>
+    <section ref={myRef} className={myElementIsVisible ? 'container p-4 mx-auto pb-16 xs:pb-24 md:pb-32 2xl:pb-48 text-center md:text-start opacity-100 duration-1000 blur-0 -translate-x-0' : 'container p-4 mx-auto pb-16 xs:pb-24 md:pb-32 2xl:pb-48 text-center md:text-start opacity-0 duration-300 blur-[5px] -translate-x-full'} id='progetti'>
       <h1 className='font-typewriter text-5xl xl:text-7xl 2xl:text-8xl mb-20'>I miei progetti:</h1>
 
       <div className='mb-32 flex-col'>

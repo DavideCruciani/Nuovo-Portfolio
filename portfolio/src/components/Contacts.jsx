@@ -5,7 +5,7 @@ import Firma from '../assets/firma.png'
 const Contacts = () => {
   const { ref: myRef, inView: myElementIsVisible } = useInView();
   return (
-    <section className='container p-4 mx-auto pb-16 xs:pb-24 md:pb-32 2xl:pb-48' id='contattami'>
+    <section ref={myRef} className={myElementIsVisible ? 'container p-4 mx-auto pb-16 xs:pb-24 md:pb-32 2xl:pb-48 opacity-100 duration-1000 blur-0 -translate-x-0' : 'container p-4 mx-auto pb-16 xs:pb-24 md:pb-32 2xl:pb-48 opacity-0 duration-300 blur-[5px] -translate-x-full'} id='contattami'>
           <form className='flex flex-col gap-3 mx-auto max-w-[600px] w-full' action="https://getform.io/f/8de1651c-4bc5-4435-9f7b-cc69853be0f6" method='POST'>
             <h1 className='text-black text-5xl xl:text-7xl 2xl:text-8xl text-center font-typewriter'>Contattami</h1>
             <p className='text-black mb-8 font-typewriter text-center'>// Compila questo modulo o contattami a questa email - <span className='font-bold italic text-red-600'>cruciani240203@gmail.com</span></p>
