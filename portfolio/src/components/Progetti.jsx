@@ -13,7 +13,7 @@ const Progetti = () => {
         <img src={Project3} alt="" className='border-4 border-black'/>
         <div className='py-4'>
           <h2 className='font-typewriter text-4xl'>HOOBANK</h2>
-          <p className='font-typewriter my-3'>Questo progetto è un'applicazione web sviluppata utilizzando React e Tailwind con l'obiettivo di creare una pagina di ingresso accattivante e moderna una banca. L'applicazione si basa su un design figma e mira a fornire un'esperienza visiva coinvolgente e informativa per gli utenti interessati ai servizi offerti da HooBank.</p>
+          <p className='font-typewriter my-3'>Questo progetto è un'applicazione web sviluppata utilizzando React e Tailwind con l'obiettivo di creare una pagina di ingresso accattivante e moderna per una banca. L'applicazione si basa su un design figma e mira a fornire un'esperienza visiva coinvolgente e informativa per gli utenti interessati ai servizi offerti da HooBank.</p>
           <div className='flex gap-6 mb-3 justify-center md:justify-start'>
             <img src={ReactJS} alt="TypeScript" className='w-[50px]'/>
             <img src={Tailwind} alt="Tailwind" className='w-[50px]'/>
