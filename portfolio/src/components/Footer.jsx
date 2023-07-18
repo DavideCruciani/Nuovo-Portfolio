@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className='w-full h-32 relative'>
       <div className="container w-full h-full flex flex-col md:flex-row items-center justify-between mx-auto p-4">
         <div>
-          <p className='text-black text-sm md:text-lg font-typewriter'>Built and Designed by <span className='text-red-600'>Davide Cruciani</span></p>
+          <p className='text-black text-sm md:text-lg font-typewriter'>Built and Designed by<br className='hidden md:block xl:hidden'/> <span className='text-red-600'>Davide Cruciani</span></p>
         </div>
         <div className='flex gap-3'>
           <a href="https://www.linkedin.com/in/davide-cruciani-7b696a270/" target='_blank'>
