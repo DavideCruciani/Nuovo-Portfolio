@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Mom'sTypewriter";
-  src: url('./fonts/Momst.ttf') format('truetype');
+  src: url("./fonts/Momst.ttf") format("truetype");
 }
 
 .font-typewriter {
